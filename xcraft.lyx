@@ -70,67 +70,6 @@
 \begin_body
 
 \begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-{ % these braces make the change local to the single frame
-\end_layout
-
-\begin_layout Plain Layout
-
-        
-\backslash
-setbeamertemplate{footline}{}
-\end_layout
-
-\begin_layout Plain Layout
-
-        
-\backslash
-begin{frame}[t]{}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename imagens/prism_1.jpg
-	lyxscale 50
-	width 100text%
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-        
-\backslash
-end{frame}
-\end_layout
-
-\begin_layout Plain Layout
-
-    }
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 \begin_inset Note Note
 status collapsed
 
@@ -197,7 +136,7 @@ and
 
 \end_inset
 
- el equipo de Mayhem
+ y el equipo de Mayhem
 \begin_inset Flex InstituteMark
 status collapsed
 
@@ -535,6 +474,67 @@ beamerdefaultoverlayspecification{<+->}
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{ % these braces make the change local to the single frame
+\end_layout
+
+\begin_layout Plain Layout
+
+        
+\backslash
+setbeamertemplate{footline}{}
+\end_layout
+
+\begin_layout Plain Layout
+
+        
+\backslash
+begin{frame}[t]{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename imagens/prism_1.jpg
+	lyxscale 50
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+        
+\backslash
+end{frame}
+\end_layout
+
+\begin_layout Plain Layout
+
+    }
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout BeginFrame
 ¿Qué son las vulnerabilidades en programas?
 \end_layout
@@ -609,7 +609,7 @@ AAAAAAAAAAAAAAA..A.
 
 
 \color inherit
-Proxima ins:
+Próxima ins:
 \end_layout
 
 \begin_layout Itemize
@@ -834,7 +834,7 @@ status open
 \end_layout
 
 \begin_layout AlertBlock
-Podemos usar ciertos bytes para controlar cuál va a ser la proxima instrucción.
+Podemos usar ciertos bytes para controlar cuál va a ser la próxima instrucción.
 \end_layout
 
 \end_deeper
@@ -1396,7 +1396,7 @@ status open
 \series bold
 151
 \series default
- nuevas vulnerabilides.
+ nuevas vulnerabilidades.
 \end_layout
 
 \end_deeper
@@ -1502,6 +1502,120 @@ Generación y exploración sobre una muestra las vulnerabilidades descubiertas.
 
 \end_layout
 
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{ % these braces make the change local to the single frame
+\end_layout
+
+\begin_layout Plain Layout
+
+        
+\backslash
+setbeamertemplate{footline}{}
+\end_layout
+
+\begin_layout Plain Layout
+
+        
+\backslash
+begin{frame}[t]{}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 1cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename imagens/metasploit.jpg
+	width 35text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+¡DEMO TIME!
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+        
+\backslash
+end{frame}
+\end_layout
+
+\begin_layout Plain Layout
+
+    }
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+El futuro.
+\end_layout
+
+\begin_layout Itemize
+Tenemos claro que hay qué..
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Agregar el soporte para redes.
+\end_layout
+
+\begin_layout Enumerate
+Analizar todos los ejecutables en Debian (por ejemplo).
+\end_layout
+
+\begin_layout Enumerate
+Escribir un artículo.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Estamos analizando..
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Agregar más información de lo que el programa hace.
+\end_layout
+
+\begin_layout Itemize
+Analizar esa información para detectar que mutaciones son mejores.
+\end_layout
+
+\end_deeper
 \begin_layout EndFrame
 
 \end_layout
