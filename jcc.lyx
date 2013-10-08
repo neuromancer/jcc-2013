@@ -95,12 +95,15 @@ En estilo ornamental
 \end_layout
 
 \begin_layout Title
-Opportunistic Vulnerability Discovery and Exploitation for Fun and Profit
+Análisis binario para todos
 \begin_inset Argument
 status open
 
 \begin_layout Plain Layout
-Xcraft
+\begin_inset Formula $\forall\mbox{ }\bullet$
+\end_inset
+
+ Análisis binario
 \end_layout
 
 \end_inset
@@ -114,167 +117,19 @@ G.
 \end_inset
 
 Grieco
-\begin_inset Flex InstituteMark
-status open
-
-\begin_layout Plain Layout
-1
-\end_layout
-
-\end_inset
-
- 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-and
-\end_layout
-
-\end_inset
-
- y el equipo de Mayhem
-\begin_inset Flex InstituteMark
-status collapsed
-
-\begin_layout Plain Layout
-2
-\end_layout
-
-\end_inset
-
-
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-- Componer los nombres en el mismo orden en que aparecen en el artículo.
- 
-\end_layout
-
-\begin_layout Plain Layout
-- Usar el menú 
-\family sans
-Insertar\SpecialChar \menuseparator
-Recuadro Personalizado\SpecialChar \menuseparator
-Marca de Institución
-\family default
- solo si los autores tienen distintas afiliaciones.
-\end_layout
-
-\end_inset
-
-
-\begin_inset Argument
-status open
-
-\begin_layout Plain Layout
-Grieco, equipo Mayhem
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-- opcional, usar sólo con varios autores
-\end_layout
-
-\begin_layout Plain Layout
-- si realmente son muchos autores, usar 
-\begin_inset Quotes eld
-\end_inset
-
-Autor et al.
-\begin_inset Quotes erd
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Institute
-\begin_inset Flex InstituteMark
-status collapsed
-
-\begin_layout Plain Layout
-1
-\end_layout
-
-\end_inset
-
 CIFASIS-Conicet
 \begin_inset Newline newline
 \end_inset
 
 Universidad Nacional de Rosario
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-and
-\end_layout
-
-\end_inset
-
- 
-\begin_inset Flex InstituteMark
-status collapsed
-
-\begin_layout Plain Layout
-2
-\end_layout
-
-\end_inset
-
-Cylab
-\begin_inset Newline newline
-\end_inset
-
-Universidad Carnegie Mellon 
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-- Usar el comando 
-\backslash
-inst sólo si hay varias afiliaciones.
-\end_layout
-
-\begin_layout Plain Layout
-- Poner algo sencillo, nadie se interesa por la dirección.
-\end_layout
-
-\end_inset
-
-
 \begin_inset Argument
 status open
 
 \begin_layout Plain Layout
-UNR y CMU
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-opcional, aunque generalmente necesario
-\end_layout
-
-\end_inset
-
-
+CIFASIS-UNR
 \end_layout
 
 \end_inset
@@ -458,20 +313,8 @@ Si quieres descubrir todo en modo paso a paso, descomenta el siguiente comando:
 
 \end_layout
 
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\backslash
-beamerdefaultoverlayspecification{<+->}
-\end_layout
-
-\end_inset
-
-
+\begin_layout BeginFrame
+Errores, Vulnerabilidades y Exploits
 \end_layout
 
 \begin_layout Standard
@@ -480,22 +323,65 @@ status open
 
 \begin_layout Plain Layout
 
-{ % these braces make the change local to the single frame
-\end_layout
 
-\begin_layout Plain Layout
-
-        
 \backslash
-setbeamertemplate{footline}{}
+only<1>{
 \end_layout
 
-\begin_layout Plain Layout
+\end_inset
 
-        
-\backslash
-begin{frame}[t]{}
+Sea un programa 
+\series bold
+P
+\series default
+ y una entrada 
+\series bold
+i
+\series default
+,
 \end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Si P(i) produce un resultado incorrecto o inesperado:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+P tiene un 
+\series bold
+bug
+\series default
+.
+\end_layout
+
+\begin_layout Itemize
+i es un 
+\series bold
+caso de prueba
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "90col%"
+height "1pt"
 
 \end_inset
 
@@ -503,31 +389,43 @@ begin{frame}[t]{}
 \end_layout
 
 \begin_layout Standard
-\align center
-\begin_inset Graphics
-	filename imagens/prism_1.jpg
-	lyxscale 50
-	width 100text%
-
+\begin_inset VSpace 0.5cm
 \end_inset
 
 
 \end_layout
 
+\end_deeper
+\begin_layout Enumerate
+Si produce un resultado incorrecto o inesperado, y se puede sacar algún
+ provecho
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+P tiene una 
+\series bold
+vulnerabilidad
+\series default
+.
+\end_layout
+
+\begin_layout Itemize
+i es un 
+\series bold
+exploit
+\series default
+.
+\end_layout
+
+\end_deeper
 \begin_layout Standard
 \begin_inset ERT
 status open
 
 \begin_layout Plain Layout
 
-        
-\backslash
-end{frame}
-\end_layout
-
-\begin_layout Plain Layout
-
-    }
+}
 \end_layout
 
 \end_inset
@@ -1541,7 +1439,7 @@ begin{frame}[t]{}
 \end_layout
 
 \begin_layout Standard
-\begin_inset VSpace 1cm
+\begin_inset VSpace 1.5cm
 \end_inset
 
 
@@ -1550,8 +1448,9 @@ begin{frame}[t]{}
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename imagens/metasploit.jpg
-	width 35text%
+	filename images2/bb.jpg
+	lyxscale 35
+	width 55text%
 
 \end_inset
 
