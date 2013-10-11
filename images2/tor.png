@@ -1,0 +1,12 @@
+--2013-10-09 16:27:21--  http://asset2.cbsistatic.com/cnwk.1d/i/tim2/2013/10/04/Tor_logo1.png
+Resolviendo asset2.cbsistatic.com (asset2.cbsistatic.com)... 23.33.186.17, 23.33.186.41
+Conectando con asset2.cbsistatic.com (asset2.cbsistatic.com)[23.33.186.17]:80... conectado.
+Petición HTTP enviada, esperando respuesta... 200 OK
+Longitud: 64196 (63K) [image/png]
+Grabando a: “Tor_logo1.png”
+
+     0K .......... .......... .......... .......... .......... 79%  183K 0s
+    50K .......... ..                                         100% 12,3M=0,3s
+
+2013-10-09 16:27:22 (228 KB/s) - “Tor_logo1.png” guardado [64196/64196]
+
