@@ -138,6 +138,156 @@ CIFASIS-UNR
 \end_layout
 
 \begin_layout Date
+
+\size scriptsize
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "30theight%"
+height_special "none"
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset VSpace 15theight%
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "80col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+
+\size scriptsize
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="4">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+VERIMAG
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Universidad Joseph Fourier 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+@ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Grenoble, Francia
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Cylab
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+ Univerdad Carnige Mellon
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+@ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Pittsburgh, Estados Unidos
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\size default
+
 \begin_inset Note Note
 status collapsed
 
@@ -155,7 +305,7 @@ o Vd.mismo) lean la presentación en línea.
 
 
 \begin_inset Argument
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Note Note
@@ -1116,6 +1266,10 @@ status open
 
 \end_deeper
 \begin_layout BeginFrame
+En esta humilde charla..
+\end_layout
+
+\begin_layout BeginFrame
 Remember, all I'm offering is the truth – nothing more.
 \end_layout
 
@@ -1383,8 +1537,94 @@ Remember, all I'm offering is the truth – nothing more.
 
 \end_layout
 
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{ % these braces make the change local to the single frame
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setbeamertemplate{footline}{}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setbeamercolor{background canvas}{bg=black}
+\backslash
+begin{frame}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename images2/white-box.jpg
+	lyxscale 10
+	display false
+	height 80theight%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{frame} 
+\backslash
+setbeamercolor{background canvas}{bg=}
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout BeginFrame
-Una función complicada..
+Dentro de un ejecutable x86..
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setbeamercolor{background canvas}{bg=}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1437,6 +1677,10 @@ movl
 \end_layout
 
 \begin_layout Standard
+\begin_inset VSpace -1cm
+\end_inset
+
+
 \begin_inset ERT
 status open
 
@@ -5639,33 +5883,6 @@ Symbolic Exploit Assistant (SEA)
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Box Frameless
-position "c"
-hor_pos "c"
-has_inner_box 1
-inner_pos "c"
-use_parbox 0
-use_makebox 0
-width "100col%"
-special "none"
-height "1in"
-height_special "totalheight"
-status open
-
-\begin_layout Plain Layout
-\align left
-\begin_inset Graphics
-	filename ../Scipyconar/charla/imgs/500px-Windows_logo_-_2002.svg.png
-	lyxscale 20
-	height 15theight%
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
 
 \end_layout
 
@@ -5739,7 +5956,7 @@ status open
 \begin_layout Plain Layout
 \align left
 \begin_inset Graphics
-	filename ../Scipyconar/charla/imgs/500px-Tux.svg.png
+	filename imagens/exe.png
 	lyxscale 20
 	height 15theight%
 
@@ -5775,9 +5992,9 @@ status open
 \begin_layout Plain Layout
 \align left
 \begin_inset Graphics
-	filename ../Scipyconar/charla/imgs/arrow.png
+	filename imagens/arrow.png
 	lyxscale 30
-	height 15theight%
+	height 12theight%
 
 \end_inset
 
@@ -5886,9 +6103,9 @@ status open
 \begin_layout Plain Layout
 \align left
 \begin_inset Graphics
-	filename ../Scipyconar/charla/imgs/arrow.png
+	filename imagens/arrow.png
 	lyxscale 30
-	height 15theight%
+	height 12theight%
 
 \end_inset
 
@@ -5944,33 +6161,6 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Box Frameless
-position "c"
-hor_pos "c"
-has_inner_box 1
-inner_pos "c"
-use_parbox 0
-use_makebox 0
-width "100col%"
-special "none"
-height "1in"
-height_special "totalheight"
-status open
-
-\begin_layout Plain Layout
-\align left
-\begin_inset Graphics
-	filename ../Scipyconar/charla/imgs/Mac_Operating_System_Logo.jpg
-	lyxscale 20
-	height 15theight%
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
 
 \end_layout
 
@@ -6188,7 +6378,47 @@ status open
 
 \end_layout
 
-\begin_layout AlertBlock
+\begin_deeper
+\begin_layout Standard
+El atacante controla las variables en rojo
+\family typewriter
+ y quiere escribir la memoria en ebp
+\begin_inset Formula $+4$
+\end_inset
+
+, con el valor
+\size small
+ 
+\begin_inset Formula $0xdeadbeef$
+\end_inset
+
+
+\size default
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+uncover<2->{
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Formalmente necesitamos:
+\end_layout
+
+\begin_layout Itemize
 
 \family typewriter
 \begin_inset Box Frameless
@@ -6198,7 +6428,7 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "45col%"
+width "40col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -6207,7 +6437,45 @@ status open
 \begin_layout Plain Layout
 
 \family typewriter
+\size footnotesize
+03: goto 15
+\end_layout
+
+\end_inset
+
+
 \size small
+ 
+\begin_inset Formula $\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $\mbox{zf}\neq0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\family typewriter
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "40col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
 16: mem[ebp
 \begin_inset Formula $+4$
 \end_inset
@@ -6241,6 +6509,20 @@ status open
 
  
 \begin_inset Formula $\mbox{eax}=0xdeadbeef$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
 \end_inset
 
 
@@ -6929,6 +7211,72 @@ https://github.com/neuromancer/SEA
 )
 \end_layout
 
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{ % these braces make the change local to the single frame
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+setbeamertemplate{footline}{}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{frame}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename images2/black-box.jpg
+	lyxscale 10
+	display false
+	height 80theight%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{frame}
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout BeginFrame
 Domando el error 
 \end_layout
@@ -7195,8 +7543,8 @@ Tomando el control
 \begin_inset Tabular
 <lyxtabular version="3" rows="2" columns="3">
 <features tabularvalignment="middle">
-<column alignment="center" valignment="top" width="35text%">
 <column alignment="center" valignment="top" width="30text%">
+<column alignment="center" valignment="top" width="25text%">
 <column alignment="center" valignment="top" width="25text%">
 <row>
 <cell alignment="center" valignment="top" usebox="none">
@@ -7218,7 +7566,14 @@ Código C
 
 \family typewriter
 \size footnotesize
-Código ensamblador
+Código 
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+ensamblador
 \end_layout
 
 \end_inset
@@ -7258,7 +7613,7 @@ status open
 
 \family typewriter
 \size tiny
-char c[32] = "passwd newpassword";
+char c[8] = "rm -R ~";
 \end_layout
 
 \begin_layout Plain Layout
@@ -7296,21 +7651,21 @@ status open
 
 \family typewriter
 \size tiny
-movl $0x73736170,0x1c(%esp) 
+pop %esi
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
 \size tiny
-movl $0x6e206477,0x20(%esp)
+xor %edx,%edx
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
 \size tiny
-movl $0x61707765,0x24(%esp)
+push %edx
 \end_layout
 
 \begin_layout Plain Layout
@@ -7324,14 +7679,14 @@ movl $0x61707765,0x24(%esp)
 
 \family typewriter
 \size tiny
-mov %eax,(%esp)
+inc %eax
 \end_layout
 
 \begin_layout Plain Layout
 
 \family typewriter
 \size tiny
-call 0x8048350 
+int $0x80
 \end_layout
 
 \end_inset
@@ -7472,65 +7827,310 @@ A...AAAA
 \end_inset
 
 
+\size footnotesize
 \color black
- donde 
+ 
 \color green
 yyyy
 \color black
- apunta al código inyectado.
+ es la dirección de la primera instrucción del código inyectado.
 \end_layout
 
 \end_deeper
 \end_deeper
 \begin_layout BeginFrame
-¡Todo el mundo ama las estadísticas!
+Xcraft (XC)
 \end_layout
 
 \begin_layout Standard
-\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="5">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="middle" width="10text%">
+<column alignment="center" valignment="top" width="10text%">
+<column alignment="center" valignment="top" width="20text%">
+<column alignment="center" valignment="top" width="20text%">
+<column alignment="center" valignment="top" width="20text%">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Multiples ejecuciones
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size scriptsize
+Si es vulnerable.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size small
+Exploit
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "c"
+hor_pos "c"
+has_inner_box 1
+inner_pos "c"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\align left
 \begin_inset Graphics
-	filename imagens/cves.png
+	filename imagens/exe.png
+	lyxscale 20
+	height 15theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "c"
+hor_pos "c"
+has_inner_box 1
+inner_pos "c"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\align left
+\begin_inset Graphics
+	filename imagens/arrow.png
 	lyxscale 30
-	width 60text%
+	height 12theight%
 
 \end_inset
 
 
 \end_layout
 
-\begin_layout BeginFrame
-Xcraft
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset VSpace -0.5cm
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+./exe 
+\begin_inset Formula $\mbox{input}_{1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+./exe 
+\begin_inset Formula $\mbox{input}_{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+...
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "c"
+hor_pos "c"
+has_inner_box 1
+inner_pos "c"
+use_parbox 0
+use_makebox 0
+width "20text%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename imagens/architecture.eps
-	width 60text%
+	filename imagens/arrow.png
+	lyxscale 30
+	height 12theight%
 
 \end_inset
 
 
 \end_layout
 
-\begin_layout Itemize
-La herramienta apunta a ser:
+\end_inset
+
+
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
-Rápida.
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
-\begin_layout Itemize
-Efectiva.
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
-\begin_layout Itemize
-Totalmente automática.
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
 \end_layout
 
-\end_deeper
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout BeginFrame
 Pensando en grande..
 \end_layout
@@ -7834,42 +8434,6 @@ end{frame}
 
 \end_layout
 
-\begin_layout BeginFrame
-El futuro.
-\end_layout
-
-\begin_layout Itemize
-Tenemos claro que hay qué..
-\end_layout
-
-\begin_deeper
-\begin_layout Enumerate
-Agregar el soporte para redes.
-\end_layout
-
-\begin_layout Enumerate
-Analizar todos los ejecutables en Debian (por ejemplo).
-\end_layout
-
-\begin_layout Enumerate
-Escribir un artículo.
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Estamos analizando..
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Agregar más información de lo que el programa hace.
-\end_layout
-
-\begin_layout Itemize
-Analizar esa información para detectar que mutaciones son mejores.
-\end_layout
-
-\end_deeper
 \begin_layout EndFrame
 
 \end_layout
