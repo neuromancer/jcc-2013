@@ -95,6 +95,33 @@ En estilo ornamental
 \end_layout
 
 \begin_layout Title
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset VSpace 1cm
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
 Análisis binario para todos
 \begin_inset Argument
 status open
@@ -103,7 +130,7 @@ status open
 \begin_inset Formula $\forall\mbox{ }\bullet$
 \end_inset
 
- Análisis binario
+ análisis binario
 \end_layout
 
 \end_inset
@@ -112,11 +139,7 @@ status open
 \end_layout
 
 \begin_layout Author
-G.
-\begin_inset space ~
-\end_inset
-
-Grieco
+Gustavo Grieco
 \end_layout
 
 \begin_layout Institute
@@ -138,8 +161,13 @@ CIFASIS-UNR
 \end_layout
 
 \begin_layout Date
-
+11º Jornadas de Ciencias de la Computación
 \size scriptsize
+
+\begin_inset Newline newline
+\end_inset
+
+
 \begin_inset Box Frameless
 position "t"
 hor_pos "c"
@@ -151,10 +179,10 @@ width "100col%"
 special "none"
 height "30theight%"
 height_special "none"
-status collapsed
+status open
 
 \begin_layout Plain Layout
-\begin_inset VSpace 15theight%
+\begin_inset VSpace 5theight%
 \end_inset
 
 
@@ -548,7 +576,7 @@ height "1pt"
 \end_deeper
 \begin_layout Enumerate
 Si produce un resultado incorrecto o inesperado, y se puede sacar algún
- provecho
+ provecho:
 \end_layout
 
 \begin_deeper
@@ -590,7 +618,7 @@ status open
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename images2/simpson-bill-gate.jpg
+	filename images2/Box_factory_1.png
 	width 40text%
 
 \end_inset
@@ -1269,6 +1297,20 @@ status open
 En esta humilde charla..
 \end_layout
 
+\begin_layout Itemize
+¿Como se descubren y aprovechan las vulnerabilidades en el software?
+\end_layout
+
+\begin_layout Itemize
+¿Qué enfoques se utilizan?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+¿Qué técnicas utilizan?
+\end_layout
+
+\end_deeper
 \begin_layout BeginFrame
 Remember, all I'm offering is the truth – nothing more.
 \end_layout
@@ -1471,7 +1513,7 @@ Remember, all I'm offering is the truth – nothing more.
 \begin_layout Plain Layout
 
 \size scriptsize
-\begin_inset Formula $f(x_{1})=y_{1}\wedge f(x_{2})=y_{2}\wedge\dots+X\Rightarrow exp$
+\begin_inset Formula $f(x_{1})=y_{1}\wedge f(x_{2})=y_{2}\wedge\dots\Rightarrow exp$
 \end_inset
 
  
@@ -5870,6 +5912,7 @@ Symbolic Exploit Assistant (SEA)
 \end_layout
 
 \begin_layout Standard
+\align center
 \begin_inset Tabular
 <lyxtabular version="3" rows="3" columns="5">
 <features tabularvalignment="middle">
@@ -6353,6 +6396,22 @@ eax
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+only<1>{
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout AlertBlock
 \begin_inset ERT
 status open
@@ -6404,9 +6463,23 @@ status open
 
 \begin_layout Plain Layout
 
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
 
 \backslash
-uncover<2->{
+only<2->{
 \end_layout
 
 \end_inset
@@ -8021,9 +8094,27 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
+
+\family typewriter
+\size footnotesize
+./exe 
+\begin_inset Formula $\mbox{input}_{3}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
 ...
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 1cm
 \end_inset
 
 
@@ -8071,6 +8162,33 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Box Frameless
+position "c"
+hor_pos "c"
+has_inner_box 1
+inner_pos "c"
+use_parbox 0
+use_makebox 0
+width "15col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images2/Bomb.png
+	lyxscale 25
+	height 15theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
 
 \end_layout
 
@@ -8100,7 +8218,43 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
+\begin_inset Box Frameless
+position "c"
+hor_pos "c"
+has_inner_box 1
+inner_pos "c"
+use_parbox 0
+use_makebox 0
+width "20text%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
 
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagens/loop.png
+	lyxscale 30
+	height 12theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\size scriptsize
+Si no es vulnerable, mutamos.
 \end_layout
 
 \end_inset
@@ -8414,6 +8568,34 @@ begin{frame}[t]{}
 \end_layout
 
 \begin_layout Standard
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+uncover<2->{
+\end_layout
+
+\end_inset
+
+(¿y el código?)
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset ERT
 status open
 
@@ -8428,6 +8610,36 @@ end{frame}
 
     }
 \end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Para terminar..
+\end_layout
+
+\begin_layout Itemize
+Caja Blanca
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Potencialmente completo.
+\end_layout
+
+\end_deeper
+\begin_layout BeginFrame
+¿Preguntas?
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename images2/box.png
+	lyxscale 55
+	width 80text%
 
 \end_inset
 
