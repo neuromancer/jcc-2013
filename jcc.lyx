@@ -5,6 +5,9 @@
 \textclass beamer
 \begin_preamble
 \usetheme{Boadilla}
+\usecolortheme{dolphin}
+%\definecolor{simpsonsyellow}{rgb}{.95,.95,.95}
+%\usecolortheme[named=simpsonsyellow]{structure}
 %\usepackage {fullpage} 
 % or ...
 \beamertemplatenavigationsymbolsempty
@@ -95,7 +98,6 @@ En estilo ornamental
 \end_layout
 
 \begin_layout Title
-
 \begin_inset Box Frameless
 position "t"
 hor_pos "c"
@@ -110,7 +112,7 @@ height_special "totalheight"
 status open
 
 \begin_layout Plain Layout
-\begin_inset VSpace 1cm
+\begin_inset VSpace 2cm
 \end_inset
 
 
@@ -182,7 +184,7 @@ height_special "none"
 status open
 
 \begin_layout Plain Layout
-\begin_inset VSpace 5theight%
+\begin_inset VSpace 3theight%
 \end_inset
 
 
@@ -618,8 +620,24 @@ status open
 \begin_layout Standard
 \align center
 \begin_inset Graphics
-	filename images2/Box_factory_1.png
+	filename images2/fabrica de cajas.png
 	width 40text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+uncover<2->{
+\end_layout
 
 \end_inset
 
@@ -655,6 +673,20 @@ status open
 Iwconfig is similar to ifconfig(8), but is dedicated to the wireless interfaces.
  It is used to set the parameters of the network interface which are specific
  to the wireless operation (for example : the frequency).
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout BeginFrame
@@ -1298,16 +1330,52 @@ En esta humilde charla..
 \end_layout
 
 \begin_layout Itemize
-¿Como se descubren y aprovechan las vulnerabilidades en el software?
+¿Cómo se 
+\series bold
+descubren
+\series default
+ y 
+\series bold
+aprovechan
+\series default
+ las vulnerabilidades en el software?
 \end_layout
 
 \begin_layout Itemize
-¿Qué enfoques se utilizan?
+¿Qué 
+\series bold
+enfoques
+\series default
+ se utilizan?
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-¿Qué técnicas utilizan?
+¿Qué 
+\series bold
+técnicas
+\series default
+ utilizan cada uno?
+\end_layout
+
+\begin_layout Itemize
+¿Cúales son sus 
+\series bold
+ventajas
+\series default
+ y 
+\series bold
+desventajas
+\series default
+?
+\end_layout
+
+\begin_layout Itemize
+¿
+\series bold
+Funcionan
+\series default
+?
 \end_layout
 
 \end_deeper
@@ -1929,21 +1997,6 @@ Representación abstracta de instrucciones ensamblador.
 
 \begin_layout Enumerate
 Teorías de satisfabilidad (SMT).
-\end_layout
-
-\begin_layout Standard
-\align center
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-\align center
-
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout BeginFrame
